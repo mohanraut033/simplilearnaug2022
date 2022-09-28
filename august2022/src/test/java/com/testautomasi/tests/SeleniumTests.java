@@ -30,7 +30,7 @@ public class SeleniumTests extends BaseWebGUITest {
 
 		globalPage.openUrl("https://testautomasi.com/blog/");
 
-		TestUtils.hardWait(5);
+		TestUtils.hardWait(10);
 
 		assertEquals(globalPage.getCurrentPageUrl().contains("blog"), true);
 
