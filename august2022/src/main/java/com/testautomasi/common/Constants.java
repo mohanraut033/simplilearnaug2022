@@ -11,8 +11,4 @@ public class Constants {
 
 	// DB Constants
 
-	public static final String dbHost = "jdbc:mysql://testautomasi.cpxinzephrda.ap-southeast-1.rds.amazonaws.com:3306";
-	public static final String dbUserName = "testautomasi";
-	public static final String dbPassword = "testautomasi";
-
 }
